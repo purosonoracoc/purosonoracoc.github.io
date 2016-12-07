@@ -15,31 +15,20 @@
 		<![endif]-->
 		<style>
 			
-			#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
+			html { 
+			  background: url(https://raw.githubusercontent.com/purosonoracoc/purosonoracoc.github.io/master/_img/bg.jpg) no-repeat center center fixed; 
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+			}
 
 			.container { position: relative; z-index: 2; width: 400px; margin: 30px auto; padding: 20px; background-color: rgba(255, 255, 255, 0.8); -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
 		</style>
 	</head>
 	<body>
-	<div id="bg">
-  <img src="https://raw.githubusercontent.com/purosonoracoc/purosonoracoc.github.io/master/_img/bg.jpg" alt="">
-</div>
 	    <div class="container">
 
 		  <div class="starter-template">
